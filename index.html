@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aram | Python Developer</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b1020;
+    color: #eef3ff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    padding: 25px 0;
+    border-bottom: 1px solid #29354c;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    color: #84f0c4;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 65px 0;
+}
+
+.hero h1 {
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.hero h1 span {
+    color: #84f0c4;
+}
+
+.hero p {
+    color: #a9b5ce;
+    max-width: 600px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 18px;
+    margin-top: 15px;
+    background: #84f0c4;
+    color: #0b1020;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 35px 0;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.card {
+    background: #141e33;
+    border: 1px solid #29354c;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.card p {
+    color: #a9b5ce;
+}
+
+.card a {
+    color: #84f0c4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about p {
+    color: #a9b5ce;
+}
+
+footer {
+    margin-top: 35px;
+    padding: 25px 0;
+    border-top: 1px solid #29354c;
+    color: #a9b5ce;
+}
+
+@media (max-width: 700px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+}
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+        <nav>
+            <strong>ARAM<span style="color:#84f0c4">.</span></strong>
+            <div>
+                <a href="#projects">Projects</a>
+                &nbsp; | &nbsp;
+                <a href="#about">About</a>
+                &nbsp; | &nbsp;
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </div>
+</header><main>
+    <section class="hero container">
+        <p>PYTHON • AUTOMATION • DATA</p>
+        <h1>I build practical <span>Python solutions.</span></h1>
+        <p>
+            I create scripts and tools that automate repetitive tasks,
+            collect useful data, and turn messy information into
+            something easier to work with.
+        </p>
+        <a class="button" href="#projects">Explore my projects</a>
+    </section><section id="projects" class="container">
+    <h2>Featured Projects</h2>
+    <p>Practical projects built with Python.</p>
+
+    <div class="projects">
+        <article class="card">
+            <h3>Retail Data Cleaner</h3>
+            <p>
+                A Python data-cleaning project focused on identifying
+                missing values, duplicate transactions, and inconsistent
+                retail records.
+            </p>
+            <p><strong>Tools:</strong> Python, Pandas</p>
+            <a href="https://github.com/aram254G/python_data-cleaner"
+               target="_blank" rel="noopener noreferrer">
+                View project →
+            </a>
+        </article>
+
+        <article class="card">
+            <h3>E-commerce Scraper</h3>
+            <p>
+                A web-scraping project that collects product information
+                and exports the results into a structured CSV file.
+            </p>
+            <p><strong>Tools:</strong> Python, Requests, BeautifulSoup</p>
+            <a href="https://github.com/aram254G/ecommerce-scraper"
+               target="_blank" rel="noopener noreferrer">
+                View project →
+            </a>
+        </article>
+
+        <article class="card">
+            <h3>GitHub Repository Analyzer</h3>
+            <p>
+                A small API project that retrieves public repository
+                information and organizes it into a CSV report.
+            </p>
+            <p><strong>Tools:</strong> Python, REST API, Pandas</p>
+            <a href="https://github.com/aram254G"
+               target="_blank" rel="noopener noreferrer">
+                Explore my GitHub →
+            </a>
+        </article>
+    </div>
+</section>
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+        I'm a Python developer in training who enjoys solving practical
+        problems through programming. I'm building projects in data
+        cleaning, web scraping, and API integration while continuously
+        improving my skills through hands-on work.
+    </p>
+</section>
+
+<section id="contact" class="container">
+    <h2>Let's Work Together</h2>
+    <p>
+        Have a repetitive task, a data-cleaning challenge, or a project
+        that could benefit from Python automation?
+    </p>
+    <a class="button"
+       href="https://github.com/aram254G"
+       target="_blank" rel="noopener noreferrer">
+        Find me on GitHub
+    </a>
+</section>
+
+</main><footer>
+    <div class="container">
+        <p>© 2026 Aram | Built with HTML and CSS.</p>
+    </div>
+</footer></body>
+</html>
+
